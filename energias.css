@@ -1,0 +1,499 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: black;
+}
+
+nav#menu ul {
+	list-style: none;
+	text-transform: uppercase;
+	position: absolute;
+	top: -5px;
+	left: 790px;
+
+}
+
+nav#menu li {
+	display: inline-block;
+	padding: 10px;
+	margin: 1px;
+	transition: all 0.9s;
+	color: #004d00;
+
+}
+
+nav#menu li:hover {
+	color: white;
+	background-color: #338c33;
+	transition: all 0.9s;
+
+}
+
+nav#menu a {
+	font-weight: bold;
+	color: #004d00;
+	font-family: verdana;
+	text-decoration: none;
+}
+
+nav#menu a:hover {
+	color: white;
+	transition: 0.3s;
+}
+
+.faixamenu {
+	width: 100%;
+	height: 35px;
+	background: #e8e8f0;
+
+}
+
+.faixafinal {
+	height: 100px;
+	background: white;
+}
+
+.bemvindo {
+	margin-top: 0px;
+	width: 100%;
+	height: 180px;
+	background: #e8e8f0;
+	box-shadow: 0px 10px 20px black;
+}
+
+.banner1 {
+	width: 100%;
+	height: 1100px;
+	background:url(imagens/banner16mod.jpg) no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.banner2 {
+	width: 100%;
+	height: 200px;
+	background:url(imagens/banner8.jpg) no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.banner3 {
+	width: 100%;
+	height: 900px;
+	background:url(imagens/banner17mod.jpg) no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.banner4 {
+	width: 100%;
+	height: 1000px;
+	background:url(imagens/banner19mod.jpg) no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.banner5 {
+	width: 100%;
+	height: 800px;
+	background:url(imagens/banner19mod.jpg) no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.banner6 {
+	width: 100%;
+	background: url(imagens/banner12mod.jpg) no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+.faixa {
+	width: 100%;
+	height: 500px;
+	background: #e8e8f0;
+	box-shadow: 20px 20px 20px black;
+}
+
+.faixa2 {
+	width: 100%;
+	height: 500px;
+	background: linear-gradient(to right, #e8e8f0 72%, #663300 118%);
+	box-shadow: 20px 20px 20px black;
+}
+
+.faixa3 {
+	width: 100%;
+	height: 300px;
+	background: url(imagens/banner18mod.jpg);
+	background-size: cover;
+	display: none;
+}
+
+.faixa4 {
+	width: 100%;
+	height: 570px;
+	background: linear-gradient(to right, #e8e8f0 86%, #009999 133%);;
+}
+
+.faixa2mod {
+	width: 50%;
+	height: 500px;
+	background: url(imagens/banner18mod.jpg) no-repeat;
+	display: none;
+}
+
+.painel1 {
+	position: absolute;
+	width: 720px;
+	margin-left: 45%;
+	margin-top: 150px;
+}
+
+.lixeira {
+	position: absolute;
+	width: 540px;
+	margin-left: -100px;
+	top: 3100px;
+}
+
+.sol {
+	position: absolute;
+	margin-left: 900px;
+	margin-top: 500px;
+}
+
+
+h1 {
+	text-align: center;
+	font-family: cambria;
+	text-transform: uppercase;
+	color: black;
+	font-size: 80px;
+	color: #e6e6e6;
+	text-shadow: 2px 2px 2px black;
+	padding-top: 50px;
+	cursor: default;
+}
+
+
+h2 {
+	color: #52a352;
+	font-family: cambria;
+	font-size: 45px;
+	text-shadow: 2px 2px 2px black;
+	cursor: default;
+}
+
+h2#solar {
+	text-align: center;
+	font-family: cambria;
+	text-transform: uppercase;
+	color: black;
+	font-size: 80px;
+	color: #e6e6e6;
+	text-shadow: 2px 2px 2px black;
+	padding-top: 500px;
+	cursor: default;
+}
+
+h2#biomassah2 {
+	text-align: center;
+	font-family: cambria;
+	text-transform: uppercase;
+	color: black;
+	font-size: 80px;
+	color: #e6e6e6;
+	text-shadow: 2px 2px 2px black;
+	padding-top: 500px;
+	cursor: default;
+}
+
+h2#maremotriz {
+	text-align: center;
+	font-family: cambria;
+	text-transform: uppercase;
+	color: black;
+	font-size: 80px;
+	color: #e6e6e6;
+	text-shadow: 2px 2px 2px black;
+	padding-top: 500px;
+	cursor: default;
+}
+
+h2#final {
+	color: #52a352;
+	text-align: center;
+	font-family: cambria;
+	font-size: 45px;
+	text-shadow: 2px 2px 2px black;
+	cursor: default;
+	padding-top: 350px;
+	font-size: 50px;
+}
+
+
+p {
+	padding-left: 150px;
+	padding-right: 150px;
+	color: white;
+	font-size: 22px;
+	text-shadow: 2px 2px 2px black;
+	text-align: justify;
+	cursor: default;
+	text-indent: 30px;
+}
+
+p#inicio {
+	padding-top: 30px;
+	font-size: 22px;
+	color: black;
+	text-shadow: none;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+p#texto1 {
+	padding-top: 100px;
+	margin-left: -100px;
+	margin-right: 630px;
+}
+
+p#texto2 {
+	position: absolute;
+	padding-top: 100px;
+	padding-left: 600px;
+}
+
+p#num1 {
+	color: #333333;
+	position: absolute;
+	margin-top: 40px;
+	padding-left: 75px;
+	text-shadow: none;
+}
+
+p#num2 {
+	color: #333333;
+	position: absolute;
+	margin-top: 40px;
+	padding-left: 365px;
+	text-shadow: none;
+}
+
+p#endereco {
+	color: #333333;
+	text-indent: 0;
+	position: absolute;
+	margin-top: 10px;
+	margin-left: 520px;
+	text-shadow: none;
+}
+
+p#grupoemail {
+	color: #333333;
+	position: absolute;
+	margin-top: 40px;
+	margin-left: 785px;
+	text-shadow: none;
+
+}
+
+p#direitos {
+	text-align: center;
+	text-shadow: none;
+	color: white;
+	font-size: 15px;
+}
+
+p#final2 {
+	text-indent: 0px;
+	text-align: center;
+	padding-top: 20px;
+}
+
+.texto {
+	padding-top: 130px;
+	font-size: 22px;
+	color: black;
+	text-shadow: none;
+	margin-left: 250px;
+	margin-right: 0px;
+
+}
+img#logo {
+	position: absolute;
+	margin-left: 1%;
+	top: 80px;
+	width: 200px;
+	transition: transform 0.5s;
+	display: none;
+
+}
+
+img#logo:hover {
+	transform: scale(1.1);
+	transition: 0.5s; 
+}
+
+img#raio {
+	position: absolute;
+	margin-left: 84%;
+	top: 122px;
+	width: 200px;
+	transition: transform 0.5s;
+
+}
+
+img#raio:hover {
+	transform: scale(1.1);
+	transition: 0.5s; 
+}
+
+img#solletra {
+	position: absolute;
+	width: 80%;
+	top: 630px;
+	margin-left: 18.8%;
+	opacity: 50%;
+	transition: opacity 1s;
+}
+
+img#solletra:hover {
+	opacity: 100%;
+	transition: 1s;
+}
+
+img#biomassa2 {
+	width: 720px;
+	margin-left: 0%;
+}
+
+img#bolha1 {
+	position: absolute;
+	margin-top: 1200px;
+	width: 80px;
+	margin-left: 60px;
+}
+
+img#bolha2 {
+	width: 110px;
+	position: absolute;
+	margin-left: 360px;
+	margin-top: 1650px;
+}
+
+img#bolha3 {
+	width: 60px;
+	position: absolute;
+	margin-left: 200px;
+	margin-top: 1920px;
+}
+
+img#bolha4 {
+	width: 30px;
+	position: absolute;
+	margin-left: 800px;
+	margin-top: 2050px;
+}
+
+img#bolha5 {
+	width: 90px;
+	position: absolute;
+	margin-left: 700px;
+	margin-top: 1600px;
+}
+
+img#bolha6 {
+	width: 50px;
+	position: absolute;
+	margin-left: 1060px;
+	margin-top: 1630px;
+}
+
+img#bolha7 {
+	width: 105px;
+	position: absolute;
+	margin-left: 970px;
+	margin-top: 1570px;
+}
+
+img#bolha8 {
+	width: 25px;
+	position: absolute;
+	margin-left: 980px;
+	margin-top: 1950px;
+}
+
+img#bolha9 {
+	width: 25px;
+	position: absolute;
+	margin-left: 520px;
+	margin-top: 1650px;
+}
+
+img#bolha10 {
+	width: 10px;
+	position: absolute;
+	margin-left: 410px;
+	margin-top: 1650px;
+}
+
+img#maremotriz2 {
+	position: absolute;
+	padding-top: 0px;
+	margin-left: -90px;
+	box-shadow: 5px 5px 5px black;
+}
+
+img#whatsapp {
+	position: absolute;
+	margin-top: 26px;
+	margin-left: 50px;
+	height: 50px;
+}
+
+img#telefone {
+	position: absolute;
+	margin-top: 26px;
+	margin-left: 335px;
+	height: 50px;
+}
+
+img#gps {
+	position: absolute;
+	margin-top: 26px;
+	margin-left: 600px;
+	height: 50px;
+}
+
+img#email {
+	position: absolute;
+	margin-top: 26px;
+	margin-left: 905px;
+	height: 50px;
+}
+
+a#voltar {
+	text-align: center;
+	position: absolute;
+	text-decoration: none;
+	font-size: 20px;
+	color: white;
+	text-shadow: 2px 2px 2px black;
+	padding-left: 630px;
+	transition: 0.5s;
+	margin-top: -300px;
+
+}
+
+a#voltar:hover {
+	color: darkgreen;
+	transition: 0.5s;
+
+}
+
+

@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width; initial scale=1.0">
+	<script src="funcoes.js"></script>
+	<link rel="shortcut icon" href="imagens/logomod.png">
+	<link rel="stylesheet" type="text/css" href="agende.css">
+	<title>Agendamento</title>
+</head>
+<body>
+
+<div class="sucesso" id="blur">
+
+  <div class="banner1">
+
+     <div class="faixamenu"></div>
+
+        <div id="principal" class="faixaprincipal">
+
+	<nav class="menu" id="menu">
+		<ul>
+			<li><a href="home.html">Home</a></li>
+			<li><a href="multimidia.html">Multimídia</a></li>
+			<li><a href="energias.html">Energias</a></li>
+			<li><a href="agende.html">Agende sua visita</a></li>
+		</ul>
+	</nav>
+
+  </div>
+
+  	<img class="folha" id="folha1" alt="Foto de folha" src="imagens/folha1.png" data-rellax-speed="12">
+
+	<img class="folha" id="folha2" alt="Foto de folha" src="imagens/folha2.png" data-rellax-speed="9">
+
+	<img class="folha" id="folha3" alt="Foto de folha" src="imagens/folha3.png" data-rellax-speed="7">
+
+	<img id="logo" alt="Logo do condomínio" class="logo" src="imagens/logomod.png" data-rellax-speed="3">
+
+
+	<h1 id="formulario">Agende sua visita</h1>
+
+<form method="post">
+    <fieldset class="fieldset">
+				
+				<legend class="letra">Identificação do Usuário</legend>
+
+				<p id="nome"><label class="espaco" for="nome2">Nome:</label></p>
+
+			<div class="caixa">
+
+				<p class="input"><input class="borda" type="text" id="nome2" size="30" maxlength="30" placeholder="Nome completo"></p>
+
+			    </div>
+
+			    <br>
+			    <br>
+
+				<p><label class="espaco" for="email2">E-mail:</label></p>
+
+			<div class="caixa">
+
+				<p class="input"><input class="borda" type="email" id="email2" size="30" maxlength="40"></p>
+
+			</div>
+
+			<br>
+			<br>
+
+				<p><label class="espaco" for="telefone2">Telefone:</label></p>
+
+			<div class="caixa">
+
+				<p class="input"><input class="borda" placeholder="(00)00000-0000" type="tel" id="telefone2" size="30" title="Digite o telefone no formato (00)0000-0000" pattern="\([0-9]{2}\)[0-9]{4,5}-[0-9]{4}"></p>
+
+			</div>
+
+		
+
+				<p id="sexo">Sexo:</p>
+
+					<p class="sexo"><input type="radio" id="feminino" name="sexo" value="F">
+					<label for="feminino">Feminino</label></p>
+
+					<p class="sexo"><input type="radio" id="masculino" name="sexo" value="M">
+					<label for="masculino">Masculino</label></p>
+
+					<p class="sexo"><input type="radio" id="naoinformado" name="sexo" value="NI" checked>
+					<label for="naoinformado">Não quero informar</label></p>
+
+
+
+				<p id="data"><label class="espaco" for="data2">Data de visita:</label></p>
+
+				<br>
+
+			<div class="caixa">
+
+				<p class="input"><input class="borda" type="date" id="data2"></p>
+
+			</div>
+
+			<br>
+			<br>
+
+
+				<p><label for="estado">Horário:</label></p>
+
+			<div class="caixa">
+
+				<select id="estado">
+					<optgroup label="Escolha um horário">
+						<option value="8h">08:00</option>
+						<option value="9h">09:00</option>
+						<option value="10h">10:00</option>
+						<option value="11h">11:00</option>
+						<option value="12h">12:00</option>
+						<option value="13h">13:00</option>
+						<option value="14h">14:00</option>
+						<option value="15h">15:00</option>
+						<option value="16h">16:00</option>
+						<option value="17h">17:00</option>
+						<option value="18h">18:00</option>
+					</optgroup>
+
+				</div>
+
+				<br>
+			    <br>
+
+				<p><label class="espaco" for="cidade">Cidade:</label>
+
+			<div class="caixa2">
+
+				<p class="input"><input class="borda" type="text" id="cidade" size="30" maxlength="40" placeholder="Sua cidade" list="cidades"></p>
+
+
+
+				<datalist id="cidades">
+					<option value="Duque de Caxias"></option>
+					<option value="Nova Iguaçu"></option>
+					<option value="Rio de Janeiro"></option>
+					<option value="Nilópolis"></option>
+					<option value="Nova Hamburgo"></option>
+					<option value="Rio Bonito"></option>
+					<option value="Niterói"></option>
+					<option value="Nova Iorque"></option>
+					<option value="Rio Claro"></option>
+					<option value="Magé"></option>
+					<option value="São João de Meriti"></option>
+					<option value="Belford Roxo"></option>
+				</datalist>
+
+			</div>
+
+			<br>
+			<br>
+			<br>
+
+
+</fieldset>
+
+</form>
+
+
+	<div class="sucesso" id="blur2">
+
+			<fieldset class="fieldset">
+				<legend class="letra">Opinião</legend>
+
+				
+
+				<p id="opcional">(OPCIONAL)</p>
+
+
+				<p id="achou"><label for="opiniao">O que achou do condomínio?</label><br>
+				<textarea id="opiniao" cols="70" rows="10"></textarea></p>
+
+				<br>
+			    <br>
+
+				<p><label>Avalie o projeto:</label></p>
+
+				<br>
+
+				<p><input type="radio" name="escolha"> Péssimo <br></p>
+				<p><input type="radio" name="escolha"> Ruim <br></p>
+				<p><input type="radio" name="escolha"> Regular <br></p>
+				<p><input type="radio" name="escolha"> Bom <br></p>
+				<p><input type="radio" name="escolha"> Ótimo</p>
+            
+            <br>
+			<br>
+			<br>
+				
+
+				</fieldset>
+		</div>
+
+			<br>
+			<br>
+
+			
+			<input type="hidden" id="avaliacao" value="06/04/2020">
+
+			<p>
+			<input class="botao" type="button" id="enviar" onclick="toggle()" size="60" value="Agendar visita">
+			<input class="botao" type="reset" id="limpar" value="Limpar Campos">
+
+			<a id="voltar" href="#">Voltar ao topo</a>
+
+			</p>
+
+
+
+<footer>
+	<p id="num1">(21) 99999-9999</p>
+	<p id="num2">(21) 9999-9999</p>
+	<p id="endereco">
+		Bed-Stuy<br>
+		Brooklyn, 1981<br>
+	    Nova York</p>
+	<p id="grupoemail">grupoenergia@gmail.com</p>
+
+	<div class="faixafinal">	
+		<img src="imagens/whatsapp.png" id="whatsapp" alt="Foto de Whatsapp">
+		<img src="imagens/telefone.png" id="telefone" alt="Foto de telefone">
+		<img src="imagens/gps.png" id="gps" alt="Símbolo de gps">
+		<img src="imagens/email.png" id="email" alt="Símbolo de email">
+	</div>
+
+</footer>
+
+<address>
+	<p id="direitos">Todos os direitos reservados &copy; 2020 - Condomíno Sustentável - Grupo Energia</p>
+	<br>
+</address>
+
+ </div>
+
+</div>
+
+<div class="conteudo" id="conteudo">
+		
+	<h2 id="sucesso">Sucesso!</h2>
+
+	<p id="sucesso2">Recebemos seus dados e entraremos em contato! Fique atento(a) à seu email e telefone! Obrigado!</p>
+
+	<img id="correto" src="imagens/correto.png" alt="Símbolo de correto">
+
+	<input type="button" value="Fechar" class="botao" id="fechar" onclick="toggle()">
+
+	</div>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/rellax/1.12.1/rellax.js"></script>
+
+<script>
+	
+	var logo = new Rellax('.logo');
+	var logo = new Rellax('.folha');
+
+</script>
+
+
+</body>
+</html>
