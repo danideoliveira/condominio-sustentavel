@@ -78,6 +78,15 @@ h2 {
 	text-shadow: 2px 2px 2px black;
 }
 
+h1#bemvindo {
+	font-family: cambria;
+	padding-top: 110px;
+	text-align: center;
+	font-size: 60px;
+	color: #52a352;
+	text-shadow: 2px 2px 2px black;
+}
+
 h2#quemsomos {
 	font-family: cambria;
 	padding-top: 100px;
@@ -371,7 +380,8 @@ p {
 }
 
 p#inicio {
-	padding-top: 10px;
+	position: absolute;
+	margin-top: -40px;
 	color: #000000;
 	text-align: justify;
 	font-size: 22px;
