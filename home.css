@@ -58,18 +58,6 @@ video {
 }
 
 h1 {
-	text-align: center;
-	font-family: cambria;
-	text-transform: uppercase;
-	color: black;
-	font-size: 80px;
-	color: #e6e6e6;
-	text-shadow: 2px 2px 2px black;
-	padding: 40vw 0 5vw;
-	cursor: default;
-}
-
-h2 {
 	font-family: cambria;
 	padding-top: 110px;
 	text-align: center;
@@ -78,7 +66,7 @@ h2 {
 	text-shadow: 2px 2px 2px black;
 }
 
-h1#bemvindo {
+h2 {
 	font-family: cambria;
 	padding-top: 110px;
 	text-align: center;
@@ -380,8 +368,7 @@ p {
 }
 
 p#inicio {
-	position: absolute;
-	margin-top: -40px;
+	padding-top: 10px;
 	color: #000000;
 	text-align: justify;
 	font-size: 22px;
