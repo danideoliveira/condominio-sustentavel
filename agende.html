@@ -2,10 +2,11 @@
 <html lang="pt-br">
 <head>
 	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width; initial scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 	<script src="funcoes.js"></script>
 	<link rel="shortcut icon" href="imagens/logomod.png">
 	<link rel="stylesheet" type="text/css" href="agende.css">
+	<link rel="stylesheet" type="text/css" href="mobileagende.css">
 	<title>Agendamento</title>
 </head>
 <body>
@@ -56,7 +57,7 @@
 			    <br>
 			    <br>
 
-				<p><label class="espaco" for="email2">Email:</label></p>
+				<p id="email3"><label class="espaco" for="email2">Email:</label></p>
 
 			<div class="caixa">
 
@@ -67,7 +68,7 @@
 			<br>
 			<br>
 
-				<p><label class="espaco" for="telefone2">Telefone:</label></p>
+				<p id="telefone2"><label class="espaco" for="telefone2">Telefone:</label></p>
 
 			<div class="caixa">
 
@@ -104,7 +105,7 @@
 			<br>
 
 
-				<p><label for="estado">Horário:</label></p>
+				<p id="horario"><label class="espaco" for="estado">Horário:</label></p>
 
 			<div class="caixa">
 
@@ -214,19 +215,30 @@
 
 
 <footer>
-	<p id="num1">(21) 99999-9999</p>
-	<p id="num2">(21) 9999-9999</p>
-	<p id="endereco">
+
+<div class="faixafinal">	
+		
+		<img src="imagens/whatsapp.png" id="whatsapp" alt="Foto de Whatsapp">
+			
+			<p id="num1">(21) 99999-9999</p>
+		
+		<img src="imagens/telefone.png" id="telefone" alt="Foto de telefone">
+			
+			<p id="num2">(21) 9999-9999</p>
+		
+		<img src="imagens/gps.png" id="gps" alt="Símbolo de gps">
+			
+			<p id="endereco">
 		Bed-Stuy<br>
 		Brooklyn, 1981<br>
 	    Nova York</p>
+	
+	<img src="imagens/email.png" id="email" alt="Símbolo de email">
 	<p id="grupoemail">grupoenergia@gmail.com</p>
 
-	<div class="faixafinal">	
-		<img src="imagens/whatsapp.png" id="whatsapp" alt="Foto de Whatsapp">
-		<img src="imagens/telefone.png" id="telefone" alt="Foto de telefone">
-		<img src="imagens/gps.png" id="gps" alt="Símbolo de gps">
-		<img src="imagens/email.png" id="email" alt="Símbolo de email">
+	<br>
+	<br>
+
 	</div>
 
 </footer>
