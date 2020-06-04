@@ -34,6 +34,26 @@ nav#menu li:hover {
 
 }
 
+label#toggle2 {
+	padding: 0 20px;
+	position: fixed;
+	display: none;
+}
+
+#check {
+	top: 30px;
+	left: 20px;
+	position: fixed;
+	display: none;
+
+}
+
+#check:checked ~ #menutopo {
+	left: 0;
+	display: none;
+}
+
+
 nav#menu a {
 	font-weight: bold;
 	color: #004d00;
